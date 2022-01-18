@@ -46,7 +46,8 @@ main {
     background-size: cover;   
     background-repeat: no-repeat;
     margin: auto;
-    transition: 1s all;
+    transition: .5s all;
+    cursor: pointer;
 }
 
 .container__image:hover {
@@ -69,6 +70,12 @@ main {
 
 .container__title {
     font-size: 1.3rem;
+    transition: .5s all;
+}
+
+.container__title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .container__paragraph {
@@ -130,4 +137,12 @@ main {
     border: 1px solid white;
     border-radius: 50%;
     margin-right: 1rem;
+}
+
+.container__link {
+    transition: .5s all;
+}
+
+.container__link:hover {
+    color: hsl(178, 100%, 50%);
 }
