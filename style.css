@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background: #0D1A2D;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 320px;
+    background: #15273F;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.438);
+    text-align: center;
+}
+
+.container__content {
+    text-align: left;
+    line-height: 2rem;
+}
+
+.container__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container__title {
+    font-size: 1.3rem;
+}
+
+.container__paragraph {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%)
+}
+
+.container__flex {
+    display: flex;
+    justify-content: space-between;
+    height: 1rem;
+    align-items: center;
+}
+
+.ethereum__text {
+    color: #00fff7;
+    font-size: 16px;
+}
+
+.icon__eth {
+    background: url(./images/icon-ethereum.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.container__image-center {
+    display: flex;
+    align-items: center;
+}
+
+.time__text {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+
+.icon__time {
+    background: url(./images/icon-clock.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+}
+
+.line {
+    margin-top: 1rem;
+    height: 1px;
+    width: 100%;
+    background: #2f415b;
+    border-radius: 1px;
+}
+
+.icon__photo {
+    background: url(./images/image-avatar.png);
+    width: 29px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
